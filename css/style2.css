@@ -1,0 +1,12 @@
+
+.Mensaje{
+
+    color: cornsilk;
+    margin: auto ;
+}
+
+body{
+
+    background-image: url("../img/fondo2.jpg");
+    background-size: cover;
+}
