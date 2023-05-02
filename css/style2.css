@@ -2,11 +2,17 @@
 .Mensaje{
 
     color: cornsilk;
-    margin: auto ;
+    text-align: center;
 }
 
 body{
 
     background-image: url("../img/fondo2.jpg");
     background-size: cover;
+}
+
+
+.contenido{
+
+    margin-top: 300px;
 }

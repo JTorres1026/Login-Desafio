@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>Login</title>
+    <title>Cambio de contraseña</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap v5.1.3 CDNs -->
@@ -22,17 +22,20 @@
 
     <div class="login">
 
-        <h1 class="text-center">Iniciar Sesión</h1>
+        <h1 class="text-center">Cambiar contraseña</h1>
         
-        <form class="needs-validation" action="validar.php" method="post">
+        <form class="needs-validation" action="changecontra.php" method="post">
+
+        <!--
             <div class="form-group was-validated">
-                <label class="form-label" for="email">Correo electrónico</label>
-                <!--Cuadro de texto para el email-->
+                <label class="form-label" for="email">Email address</label>
+                Cuadro de texto para el email
                 <input class="form-control" type="text" id="email" name="usuario">
                 <div class="invalid-feedback">
                     Please enter your email address
                 </div>
             </div>
+            -->
             <div class="form-group was-validated">
                 <label class="form-label" for="password">Contraseña</label>
                 <!--Cuadro de texto para la contraseña-->
@@ -43,7 +46,7 @@
             </div>
             
             <!--Boton para ingresar-->
-            <input class="btn btn-success w-100" type="submit" value="Ingresar">
+            <input class="btn btn-success w-100" type="submit" value="Cambiar">
         </form>
 
     </div>

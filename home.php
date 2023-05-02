@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style2.css">
 </head>
 <body>
-<div>
+<div class="contenido">
     <h1 class="Mensaje">Bienvenido</h1>
 
 </div>
